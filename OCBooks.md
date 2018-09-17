@@ -1,6 +1,7 @@
 那些年，我看过几遍的文档……  
 这就是独立开发的坏处，没什么人交流，都不知道github还能当blog用  
 期待你的交流学习，欢迎在[Issues](https://github.com/saint-shaka/SayGoodByeToiOSDevelopment/issues)里留言！  
+先从坑爹的官方文档开始吧  
 
 [Object-Oriented Programming with Objective-C](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/OOP_ObjC/Articles/ooWhy.html)
 //个人感觉这边很重要，基本是年年看，逐渐加深对每一句话的体会。当年刚开始做的时候，感觉动态加载之类的没用，所以后来……
