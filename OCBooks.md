@@ -82,7 +82,6 @@
 
 ### <a name='Foundation'> Foundation:</a>
 
-
 [Key-Value Coding Programming Guide](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/KeyValueCoding/)
 //我怎么就没想到用这个实现自动解析呢？当时还傻不拉几的去做生成手动解析代码……为什么别人看了有用的东西我看了感觉都没啥用呢？
 
@@ -98,21 +97,21 @@
 [Date and Time Programming Guide](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/DatesAndTimes/DatesAndTimes.html)
 //日期这些太常用了
 
-[]()
-//
+[Blocks Programming Topics](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/Blocks/Articles/bxGettingStarted.html#//apple_ref/doc/uid/TP40007502-CH7-SW1)
+//必看。注意一下Patterns to Avoid部分。但是这里只是讲了用法，弱鸡和大佬的区别之一就是大佬总能去分析源码！弱鸡即使看到源码也还是呆若木鸡！
 
 []()
 //
 ### <a name='UIKit'> UI Kit:</a>
 
 [View Programming Guide for iOS](https://developer.apple.com/library/archive/documentation/WindowsViews/Conceptual/ViewPG_iPhoneOS/Introduction/Introduction.html)
-//这还用说？
+//必看之一
 
 [View Controller Programming Guide for iOS](https://developer.apple.com/library/archive/featuredarticles/ViewControllerPGforiPhoneOS/index.html#//apple_ref/doc/uid/TP40007457)
-//这还用说？
+//必看之一
 
 [Table View Programming Guide for iOS](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/TableView_iPhone/AboutTableViewsiPhone/AboutTableViewsiPhone.html)
-//这还用说？但是你看过The Elements吗？
+//必看之一。但是你看过The Elements吗？
 
 [Scroll View Programming Guide for iOS](https://developer.apple.com/library/archive/documentation/WindowsViews/Conceptual/UIScrollView_pg/Introduction/Introduction.html#//apple_ref/doc/uid/TP40008179)
 //scrollview的绘制原理不是在这看的？
@@ -121,6 +120,7 @@
 //多用collection view，少用table view吧。（其实我没看完这个）
 
 ### <a name='Other'> Other:</a>
+//本来想在这部分放 App Distribution Guide 之类的，结果几个相关的文档找不到了……  
 []()
 //
 
