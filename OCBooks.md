@@ -1,6 +1,6 @@
 深切缅怀曾经的文档……    
-长期独立开发，没人可交流，视野狭窄，技术缺陷多，日久成喷
-期待你的交流学习，欢迎在[Issues](https://github.com/saint-shaka/SayGoodByeToiOSDevelopment/issues)里留言！  
+长期独立开发，没人可交流，视野狭窄，技术缺陷多，日久成喷  
+期待你的指导，欢迎在[Issues](https://github.com/saint-shaka/SayGoodByeToiOSDevelopment/issues)里留言！谢谢！  
 
 ## <a name='contents'>Table of Contents</a>
 
