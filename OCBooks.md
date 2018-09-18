@@ -1,6 +1,6 @@
 未完待续  
 深切缅怀曾经的文档……    
-长期独立开发，没人可交流，视野狭窄，技术缺陷多，被不负责任的blog坑多了就越来越喜欢看官方文档了，日久成喷  
+长期独立开发，没人可交流，视野狭窄，技术缺陷多，被不负责任的blog坑多了就越来越喜欢看官方文档了，日久成喷，而且还发现自己去看英文文档不如去翻别人的blog  
 期待你的指导，欢迎在[Issues](https://github.com/saint-shaka/SayGoodByeToiOSDevelopment/issues)里留言！谢谢！  
 
 ## <a name='contents'>Table of Contents</a>
