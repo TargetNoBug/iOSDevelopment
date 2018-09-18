@@ -48,7 +48,7 @@
 //看过好几遍，在我的工作中也没用上多少，但是别人咋就能经常用上呢？配合WWDC sessions看效果更好？
 
 [Timer Programming Topics](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/Timers/Timers.html#//apple_ref/doc/uid/10000061-SW1)
-//Timers work in conjunction with NSRunLoop objects. As a result, they don’t provide a real-time mechanism—their accuracy is limited.怎么不说如何实现个高精度的timer？这不坑老子吗！
+//Timers work in conjunction with NSRunLoop objects. As a result, they don’t provide a real-time mechanism—their accuracy is limited.怎么不说如何实现个高精度的timer？这不坑XX吗！
 
 []()
 //
@@ -80,8 +80,6 @@
 [Collection View Programming Guide for iOS](https://developer.apple.com/library/archive/documentation/WindowsViews/Conceptual/CollectionViewPGforIOS/Introduction/Introduction.html)
 //多用collection view，少用table view吧。（其实我没看完这个）
 
-[]()
-//这还用说？
 
 ### <a name=''> :</a>
 ### <a name=''> :</a>
