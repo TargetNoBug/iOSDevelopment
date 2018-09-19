@@ -1,4 +1,4 @@
-未完待续  
+主要就这些  
 深切缅怀曾经的文档……    
 长期独立开发，没人可交流，视野狭窄，技术缺陷多，被不负责任的blog坑多了就越来越喜欢看官方文档了，日久成喷，而且还发现自己去看英文文档不如去翻别人的blog  
 期待你的指导，欢迎在[Issues](https://github.com/saint-shaka/SayGoodByeToiOSDevelopment/issues)里留言！谢谢！  
@@ -55,7 +55,7 @@
 //看完了并没感觉有啥用
 
 [Concepts in Objective-C Programming](https://developer.apple.com/library/archive/documentation/General/Conceptual/CocoaEncyclopedia/Introduction/Introduction.html)
-//一些基础面试题的答案就在其中。
+//一些基础面试题的答案就在其中。其实我主要是看的里面的MVC，至今不敢说看明白了。
 
 [Cocoa Core Competencies](https://developer.apple.com/library/archive/documentation/General/Conceptual/DevPedia-CocoaCore/Introduction.html#//apple_ref/doc/uid/TP40008195-CH68-DontLinkElementID_2)
 //基本概念，浅显易懂。
