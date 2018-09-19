@@ -31,7 +31,7 @@
 //用ARC之前被问到有没有用过ARC？用了之后被问到有没有用过MRR？从MRR过渡到ARC的时候真是心惊胆战……
 
 [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/)
-//HIG就是这本，基本年年更新，个人感觉整个团队的都该看看交流交流（不交流交流你怎么知道她看没看）（交流还能增进感情？）(交流交流可以从别人的角度加深理解)（欢迎去issues里留言），看完了再看看自己有没有做过相反设计的东西。当你遇上了自认为不合理的设计，就把这本给那个做设计的，让她看完。
+//HIG就是这本，基本年年更新，个人感觉整个团队的都该看看交流交流（不交流交流你怎么知道她看没看?）（交流还能增进感情？）(交流交流可以从别人的角度加深理解)（欢迎去[issues](https://github.com/saint-shaka/SayGoodByeToiOSDevelopment/issues)里留言），看完了再看看自己有没有做过相反设计的东西。当你遇上了自认为不合理的设计，就把这本给那个做设计的，让她看完。
 
 [Coding Guidelines for Cocoa](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html)
 //一部分一部分一部分代码规范。既然要出规范，你怎么不写全点呢？是因为我C语言基础太弱吗？
