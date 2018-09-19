@@ -73,7 +73,7 @@
 //虽说年年更新，但是2014年之后的工作都用的第三方SDK，就再没看过了
 
 [Resource Programming Guide](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/LoadingResources/Introduction/Introduction.html#//apple_ref/doc/uid/10000051i-CH1-SW1)
-//看看nib可以加深对xib的认识
+//看看nib可以加深对xib的认识。其实还有别的用处。
 
 []()
 //
@@ -120,12 +120,10 @@
 //多用collection view，少用table view吧。（其实我没看完这个）
 
 ### <a name='Other'> Other:</a>
-//本来想在这部分放 App Distribution Guide 之类的，结果几个相关的文档找不到了……  
+//本来想在这部分放打包提交审核和证书管理之类的，结果几个相关的文档找不到了，也许是因为年年更新吧……  
 []()
 //
 
-[]()
-//
 
 ### <a name='Sigh'> Sigh:</a>
 //连这些都没用过，我都不好意思说我做过iOS开发  
