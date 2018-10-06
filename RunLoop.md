@@ -9,9 +9,16 @@
 1. [Reference](#Reference)
 1. [Questions](#Questions)
 ### <a name='Preparation'>Preparation:</a> . 
- * 
- * 
- 
+#### CFRunLoop source code
+CFRunLoop是属于Core Foundation的，从[](https://opensource.apple.com/source/CF/)能看到部分CF的source code，经过对比，我选择这个2015的[CFRunLoop SRC](https://opensource.apple.com/source/CF/CF-1153.18/CFRunLoop.c.auto.html)  
+**有了source code还不够，还需要有看src的方法……**  
+Data+Alogrithm
+#### C语言: 
+[pointer](https://github.com/saint-shaka/CHowToProgram8thNotes/blob/master/07.C%20Pointers.md)  
+[structure](https://github.com/saint-shaka/CHowToProgram8thNotes/blob/master/10.C%20Structures,%20Unions,%20Bit%20Manipulation%20and%20Enumerations.md)   
+pthread
+#### 操作系统: 线程相关的
+
  
 ### <a name='Defination'>Defination:</a> . 
  **A run loop is an event processing loop that you use to schedule work and coordinate the receipt of incoming events. The purpose of a run loop is to keep your thread busy when there is work to do and put your thread to sleep when there is none.**  
