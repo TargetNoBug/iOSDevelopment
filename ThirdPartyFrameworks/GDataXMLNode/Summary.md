@@ -1,18 +1,1 @@
-
-## <a name='contents'>Table of Contents</a>
-
-1. [](#)
-1. [](#)
-1. [](#)
-1. [](#)
-1. [](#)
-1. [](#)
-1. [](#)
-<a name=''> :</a>
-``` C
-
-```
-<a name=''> :</a>
-``` C
-
-```
+[GDataXMLNode](https://github.com/google/gdata-objectivec-client/tree/master/Source/XMLSupport)
