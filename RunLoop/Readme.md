@@ -7,7 +7,6 @@
 1. [Function](#Function)
 1. [Relationships](#Relationships)
 1. [Usage](#Usage)
-1. [Reference](#Reference)
 1. [Questions](#Questions)
 ### <a name='Preparation'>Preparation:</a> . 
 看文档之前需要的基础：
@@ -18,9 +17,7 @@ Data+Alogrithm
 pthread
 #### 操作系统: 线程相关的  
 看看这个也有好处[Cocoa Event Handling Guide](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/EventOverview/EventArchitecture/EventArchitecture.html#//apple_ref/doc/uid/10000060i-CH3-SW11)  
-对以上的都有了解之后，再看[Threading Programming Guide_Run Loops](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/Multithreading/RunLoopManagement/RunLoopManagement.html#//apple_ref/doc/uid/10000057i-CH16-SW1)  
-[NSRunLoop](https://developer.apple.com/documentation/foundation/nsrunloop?language=occ)
-[CFRunLoop](https://developer.apple.com/documentation/corefoundation/cfrunloop-rht)
+
 #### CFRunLoop source code
 CFRunLoop是属于Core Foundation的，从[](https://opensource.apple.com/source/CF/)能看到部分CF的source code，经过对比，我选择这个2015的[CFRunLoop SRC](https://opensource.apple.com/source/CF/CF-1153.18/CFRunLoop.c.auto.html)  
 **有了source code还不够，还需要有看src的方法……**
@@ -85,20 +82,19 @@ struct __CFRunLoopMode {
 
 ```
 ### <a name='Reference'>Reference:</a>  
+[Threading Programming Guide-RunLoops](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/Multithreading/RunLoopManagement/RunLoopManagement.html#//apple_ref/doc/uid/10000057i-CH16-SW1) . 
+[NSRunLoop](https://developer.apple.com/documentation/foundation/nsrunloop?language=occ) . 
+[CFRunLoop](https://developer.apple.com/documentation/corefoundation/cfrunloop-rht) . 
+[YY](https://blog.ibireme.com/2015/05/18/runloop/) . 
 
+[CuiJT](https://www.cnblogs.com/kenshincui/p/6823841.html) . 
 ### <a name='Function'>Function:</a>  
 
 ### <a name='Relationships'>Relationships:</a>
 
 ### <a name='Usage'>Usage:</a>
 
-### <a name='Reference'>Reference:</a> 
 
-
-[YY](https://blog.ibireme.com/2015/05/18/runloop/) . 
-
-[CuiJT](https://www.cnblogs.com/kenshincui/p/6823841.html) . 
- 
 ### <a name='Questions'>Questions:</a>  
 
 
