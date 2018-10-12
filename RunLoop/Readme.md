@@ -82,12 +82,11 @@ struct __CFRunLoopMode {
 
 ```
 ### <a name='Reference'>Reference:</a>  
-[Threading Programming Guide-RunLoops](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/Multithreading/RunLoopManagement/RunLoopManagement.html#//apple_ref/doc/uid/10000057i-CH16-SW1) . 
-[NSRunLoop](https://developer.apple.com/documentation/foundation/nsrunloop?language=occ) . 
-[CFRunLoop](https://developer.apple.com/documentation/corefoundation/cfrunloop-rht) . 
-[YY](https://blog.ibireme.com/2015/05/18/runloop/) . 
-
-[CuiJT](https://www.cnblogs.com/kenshincui/p/6823841.html) . 
+[Threading Programming Guide-RunLoops](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/Multithreading/RunLoopManagement/RunLoopManagement.html#//apple_ref/doc/uid/10000057i-CH16-SW1)  
+[NSRunLoop](https://developer.apple.com/documentation/foundation/nsrunloop?language=occ) .  
+[CFRunLoop](https://developer.apple.com/documentation/corefoundation/cfrunloop-rht) .  
+[YY](https://blog.ibireme.com/2015/05/18/runloop/) .  
+[CuiJT](https://www.cnblogs.com/kenshincui/p/6823841.html) .  
 ### <a name='Function'>Function:</a>  
 
 ### <a name='Relationships'>Relationships:</a>
