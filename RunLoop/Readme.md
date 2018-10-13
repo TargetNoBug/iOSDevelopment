@@ -29,6 +29,7 @@ CFRunLoop是属于Core Foundation的，从[](https://opensource.apple.com/source
 
  
 ### <a name='Defination'>Defination:</a> . 
+**A CFRunLoop object monitors sources of input to a task and dispatches control when they become ready for processing. **
 ```C
 struct __CFRunLoop {
     CFRuntimeBase _base;
@@ -38,7 +39,7 @@ struct __CFRunLoop {
     volatile _per_run_data *_perRunData;              // reset for runs of the run loop
     pthread_t _pthread;
     uint32_t _winthread;
-    CFMutableSetRef _commonModes;
+    CFMutableSetRef _commonModes;/*需要学习*/
     CFMutableSetRef _commonModeItems;
     CFRunLoopModeRef _currentMode;
     CFMutableSetRef _modes;
@@ -49,6 +50,7 @@ struct __CFRunLoop {
     CFTypeRef _counterpart;
 };
 ```
+**A run loop mode is a collection of input sources and timers to be monitored and a collection of run loop observers to be notified. **
 ```C
 struct __CFRunLoopMode {
     CFRuntimeBase _base;
@@ -56,10 +58,10 @@ struct __CFRunLoopMode {
     CFStringRef _name;
     Boolean _stopped;
     char _padding[3];
-    CFMutableSetRef _sources0;
-    CFMutableSetRef _sources1;
-    CFMutableArrayRef _observers;
-    CFMutableArrayRef _timers;
+    CFMutableSetRef _sources0;/*需要学习*/
+    CFMutableSetRef _sources1;/*需要学习*/
+    CFMutableArrayRef _observers;/*需要学习*/
+    CFMutableArrayRef _timers;/*需要学习*/
     CFMutableDictionaryRef _portToV1SourceMap;
     __CFPortSet _portSet;
     CFIndex _observerMask;
