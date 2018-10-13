@@ -1,4 +1,5 @@
-像我这种笨的，看过RunLoop感觉没什么用的，需要长期看……
+本人又笨又懒，Apple Dev文档又坑，所以没人要了……
+
 ## <a name='contents'>Table of Contents</a>
 
 1. [Preparation](#Preparation)
