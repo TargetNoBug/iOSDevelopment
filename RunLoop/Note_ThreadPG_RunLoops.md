@@ -99,10 +99,10 @@ generate notifications about the run loop’s behavior for RunLoop Observers(CFR
 为什么要设计CFRunLoopObserver这个类？  
 receive notifications and use them to do additional processing on the thread.   
 //类似delegate？避免把additional processing on the thread写在CFRunLoopObserver的src里？  
-===
+
 一句话总结：  
 RunLoop是干什么用的？  
-为了控制thread的busy/sleep状态，设计了RunLoop, 用来处理input sources 或 timer sources，并把相关的notification发送给registered RunLoop observers, 让这些observers能进行进一步处理.
+**为了控制thread的busy/sleep状态，设计了RunLoop, 用来处理input sources 或 timer sources，并把相关的notification发送给registered RunLoop observers, 让这些observers能进行进一步处理.**
 
 RunLoopMode的作用是什么？  
 用来指定RunLoop是处理input sources还是timer sources的。指定了要处理的source，就会把相关的notification发送给registered RunLoop observers.
