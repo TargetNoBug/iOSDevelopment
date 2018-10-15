@@ -93,16 +93,17 @@ Timer sources deliver synchronous events, occurring at a scheduled time or repea
 能不能手画出这张图？
 ![Figure 3-1  Structure of a run loop and its sources](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/Multithreading/Art/runloop.jpg)
 
-RunLoop除了handle input sources，还能干什么？
-generate notifications about the run loop’s behavior for RunLoop Observers(CFRunLoopObserver).
+RunLoop除了handle input sources，还能干什么？  
+generate notifications about the run loop’s behavior for RunLoop Observers(CFRunLoopObserver).  
 
-为什么要设计CFRunLoopObserver这个类？
-receive notifications and use them to do additional processing on the thread. 
-//类似delegate？避免把additional processing on the thread写在CFRunLoopObserver的src里？
-一句话总结：
-RunLoop是干什么用的？
+为什么要设计CFRunLoopObserver这个类？  
+receive notifications and use them to do additional processing on the thread.   
+//类似delegate？避免把additional processing on the thread写在CFRunLoopObserver的src里？  
+===
+一句话总结：  
+RunLoop是干什么用的？  
 为了控制thread的busy/sleep状态，设计了RunLoop, 用来处理input sources 或 timer sources，并把相关的notification发送给registered RunLoop observers, 让这些observers能进行进一步处理.
----
+
 RunLoopMode的作用是什么？  
 用来指定RunLoop是处理input sources还是timer sources的。指定了要处理的source，就会把相关的notification发送给registered RunLoop observers.
 //也就我这种厚颜无耻之人才会想到这种场景（求更佳场景）：
