@@ -1,6 +1,6 @@
 ## <a name='contents'>Table of Contents</a>
 1. [Introduction](#1)
-1. [Anatomy of a Run Loop(这部分暂时看不懂，先看下部分)](#2)
+1. [Anatomy of a Run Loop](#2)
 1. [When Would You Use a Run Loop?](#3)
 1. [Using Run Loop Objects](#4)
 1. [Configuring Run Loop Sources](#5)
@@ -44,6 +44,14 @@ The following sections provide more information about the components of a run lo
 
 ```
 ### <a name='3'>When Would You Use a Run Loop :</a>
+The **only** time you need to run a run loop explicitly is when you create secondary threads for your application.   
+
+Run loops are intended for situations where you want more interactivity with the thread. For example, you need to start a run loop if you plan to do any of the following:  
+* Use ports or custom input sources to communicate with other threads.  
+* Use timers on the thread.  
+* Use any of the performSelector… methods in a Cocoa application.  
+* Keep the thread around to perform periodic tasks.  
+
 ``` C
 
 ```
