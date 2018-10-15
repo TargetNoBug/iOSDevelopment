@@ -105,10 +105,10 @@ RunLoop是干什么用的？
 **为了控制thread的busy/sleep状态，设计了RunLoop, 用来处理input sources 或 timer sources，并把相关的notification发送给registered RunLoop observers, 让这些observers能进行进一步处理.**
 
 RunLoopMode的作用是什么？  
-用来指定RunLoop是处理input sources还是timer sources的。指定了要处理的source，就会把相关的notification发送给registered RunLoop observers.
-//也就我这种厚颜无耻之人才会想到这种场景（求更佳场景）：
-某男(NSRunLoop)有2个女友(sources)，一个是年轻漂亮的小女友(input source)，但是没钱；另一个是老且丑的富婆(timer source)，但是有钱。
-不需要钱的时候，进入NSDefaultRunLoopMode，只和小女友打情骂俏，冷落富婆；需要钱的时候，进入NSRunLoopCommonModes，专心伺候富婆，冷落小女友。
+用来指定RunLoop是处理input sources还是timer sources的。指定了要处理的source，就会把相关的notification发送给registered RunLoop observers.  
+//也就我这种厚颜无耻之人才会想到这种场景（求更佳场景）：  
+某男(NSRunLoop)有2个女友(sources)，一个是年轻漂亮的小女友(input source)，但是没钱；另一个是老且丑的富婆(timer source)，但是有钱。  
+不需要钱的时候，进入NSDefaultRunLoopMode，只和小女友打情骂俏，冷落富婆；需要钱的时候，进入NSRunLoopCommonModes，专心伺候富婆，冷落小女友。  
 
 进阶问题:  
 设计RunLoop的目的是什么？
