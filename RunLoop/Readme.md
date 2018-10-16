@@ -3,9 +3,9 @@
 ## <a name='contents'>Table of Contents</a>
 
 1. [Preparation](#Preparation)
-1. [Defination](#Defination)
-1. [Reference](#Reference)
-1. [Function](#Function)
+1. [Glossary](#Glossary)
+1. [References](#References)
+1. [Source Code](#SRC)
 1. [Relationships](#Relationships)
 1. [Usage](#Usage)
 1. [Questions](#Questions)
@@ -26,9 +26,33 @@ CFRunLoop是属于Core Foundation的，从[](https://opensource.apple.com/source
 [1](https://github.com/aredridel/how-to-read-code/blob/master/how-to-read-code.md)  
 [2](http://himmele.blogspot.com/2012/01/how-do-you-read-source-code.html)  
 
-
- 
-### <a name='Defination'>Defination:</a> . 
+### <a name='Glossary'>Glossary:</a> . 
+* RunLoop:
+* RunLoop Sources:
+* RunLoopMode:
+* RunLoopObserver:
+* Input Sources:
+* Timer Sources:
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+### <a name='References'>References:</a>  
+[Threading Programming Guide-RunLoops](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/Multithreading/RunLoopManagement/RunLoopManagement.html#//apple_ref/doc/uid/10000057i-CH16-SW1)  
+[NSRunLoop](https://developer.apple.com/documentation/foundation/nsrunloop?language=occ) .  
+[CFRunLoop](https://developer.apple.com/documentation/corefoundation/cfrunloop-rht) .  
+[CFRunLoopMode(没内容)](https://developer.apple.com/documentation/corefoundation/cfrunloopmode?language=objc) .   
+[CFRunLoopObserver(就一句话)](https://developer.apple.com/documentation/corefoundation/cfrunloopobserver) .   
+[CFRunLoopTimer](https://developer.apple.com/documentation/corefoundation/cfrunlooptimer-rhk) .   
+[]() .   
+[]() .   
+[]() .   
+[YY](https://blog.ibireme.com/2015/05/18/runloop/) .  
+[CuiJT](https://www.cnblogs.com/kenshincui/p/6823841.html) .  
+### <a name='SRC'>Source Code:</a>  
 **A CFRunLoop object monitors sources of input to a task and dispatches control when they become ready for processing.**
 ```C
 struct __CFRunLoop {
@@ -127,14 +151,6 @@ struct __CFRunLoopTimer {
     CFRunLoopTimerContext _context;	/* immutable, except invalidation */
 };
 ```
-### <a name='Reference'>Reference:</a>  
-[Threading Programming Guide-RunLoops](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/Multithreading/RunLoopManagement/RunLoopManagement.html#//apple_ref/doc/uid/10000057i-CH16-SW1)  
-[NSRunLoop](https://developer.apple.com/documentation/foundation/nsrunloop?language=occ) .  
-[CFRunLoop](https://developer.apple.com/documentation/corefoundation/cfrunloop-rht) .  
-[YY](https://blog.ibireme.com/2015/05/18/runloop/) .  
-[CuiJT](https://www.cnblogs.com/kenshincui/p/6823841.html) .  
-### <a name='Function'>Function:</a>  
-
 ### <a name='Relationships'>Relationships:</a>
 
 ### <a name='Usage'>Usage:</a>
