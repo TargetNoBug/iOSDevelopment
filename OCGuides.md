@@ -75,8 +75,8 @@
 [Resource Programming Guide](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/LoadingResources/Introduction/Introduction.html#//apple_ref/doc/uid/10000051i-CH1-SW1)
 //看看nib可以加深对xib的认识。其实还有别的用处。
 
-[]()
-//
+[Event Handling Guide for UIKit Apps]()
+//找不到？
 
 
 
