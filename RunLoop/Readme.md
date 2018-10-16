@@ -14,7 +14,7 @@
 Data+Alogrithm
 #### C语言: 
 [pointer](https://github.com/saint-shaka/CHowToProgram8thNotes/blob/master/07.C%20Pointers.md)  
-[structure](https://github.com/saint-shaka/CHowToProgram8thNotes/blob/master/10.C%20Structures,%20Unions,%20Bit%20Manipulation%20and%20Enumerations.md)   
+[structure(含Union)](https://github.com/saint-shaka/CHowToProgram8thNotes/blob/master/10.C%20Structures,%20Unions,%20Bit%20Manipulation%20and%20Enumerations.md)   
 pthread
 #### 操作系统: 线程相关的  
 看看这个也有好处[Cocoa Event Handling Guide](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/EventOverview/EventArchitecture/EventArchitecture.html#//apple_ref/doc/uid/10000060i-CH3-SW11)  
