@@ -81,7 +81,7 @@ Run loops are intended for situations where you want more interactivity with the
 
 ```
 ### <a name='6'>WCX Summary :</a>
-基本线索：  
+Blueprint：  
 RunLoop 是什么？  
 A run loop is an event processing loop that you use to schedule work and coordinate the receipt of incoming events.
 
@@ -100,6 +100,8 @@ generate notifications about the run loop’s behavior for RunLoop Observers(CFR
 receive notifications and use them to do additional processing on the thread.   
 //类似delegate？避免把additional processing on the thread写在CFRunLoopObserver的src里？  
 
+**为什么没有NSRunLoop?**
+
 一句话总结：  
 RunLoop是干什么用的？  
 **为了控制thread的busy/sleep状态，设计了RunLoop, 用来处理input sources 或 timer sources，并把相关的notification发送给registered RunLoop observers, 让这些observers能进行进一步处理.**
@@ -109,6 +111,11 @@ RunLoopMode的作用是什么？
 //也就我这种厚颜无耻之人才会想到这种场景（求更佳场景）：  
 某男(NSRunLoop)有2个女友(sources)，一个是年轻漂亮的小女友(input source)，但是没钱；另一个是老且丑的富婆(timer source)，但是有钱。  
 不需要钱的时候，进入NSDefaultRunLoopMode，只和小女友打情骂俏，冷落富婆；需要钱的时候，进入NSRunLoopCommonModes，专心伺候富婆，冷落小女友。  
+
+CommonModes和DefaultMode有什么关系？
+CommonModes包含DefaultMode.
+
+**什么时候用DefaultMode?什么时候用CommonModes?**
 
 进阶问题:  
 设计RunLoop的目的是什么？
