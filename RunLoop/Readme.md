@@ -82,7 +82,50 @@ struct __CFRunLoopMode {
     uint64_t _timerSoftDeadline; /* TSR */
     uint64_t _timerHardDeadline; /* TSR */
 };
-
+```
+**Both types of source use an application-specific handler routine to process the event when it arrives.**
+```C
+struct __CFRunLoopSource {
+    CFRuntimeBase _base;
+    uint32_t _bits;
+    pthread_mutex_t _lock;
+    CFIndex _order;			/* immutable */
+    CFMutableBagRef _runLoops;
+    union {
+       	CFRunLoopSourceContext version0;	/* immutable, except invalidation */
+        CFRunLoopSourceContext1 version1;	/* immutable, except invalidation */
+    } _context;
+};
+```
+**In addition to handling sources of input, run loops also generate notifications about the run loop’s behavior. Registered run-loop observers can receive these notifications and use them to do additional processing on the thread.**
+```C
+struct __CFRunLoopObserver {
+    CFRuntimeBase _base;
+    pthread_mutex_t _lock;
+    CFRunLoopRef _runLoop;
+    CFIndex _rlCount;
+    CFOptionFlags _activities;		/* immutable */
+    CFIndex _order;			/* immutable */
+    CFRunLoopObserverCallBack _callout;	/* immutable */
+    CFRunLoopObserverContext _context;	/* immutable, except invalidation */
+};
+```
+**A CFRunLoopTimer object represents a specialized run loop source that fires at a preset time in the future.**
+```C
+struct __CFRunLoopTimer {
+    CFRuntimeBase _base;
+    uint16_t _bits;
+    pthread_mutex_t _lock;
+    CFRunLoopRef _runLoop;
+    CFMutableSetRef _rlModes;
+    CFAbsoluteTime _nextFireDate;
+    CFTimeInterval _interval;		/* immutable */
+    CFTimeInterval _tolerance;          /* mutable */
+    uint64_t _fireTSR;			/* TSR units */
+    CFIndex _order;			/* immutable */
+    CFRunLoopTimerCallBack _callout;	/* immutable */
+    CFRunLoopTimerContext _context;	/* immutable, except invalidation */
+};
 ```
 ### <a name='Reference'>Reference:</a>  
 [Threading Programming Guide-RunLoops](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/Multithreading/RunLoopManagement/RunLoopManagement.html#//apple_ref/doc/uid/10000057i-CH16-SW1)  
