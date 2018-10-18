@@ -38,9 +38,11 @@ In your code, you identify modes by name. Both Cocoa and Core Foundation define 
 
 **You use modes to filter out events from unwanted sources during a particular pass through your run loop.** Most of the time, you will want to run your run loop in the system-defined “default” mode. A modal panel, however, might run in the “modal” mode. While in this mode, only sources relevant to the modal panel would deliver events to the thread. **For secondary threads, you might use custom modes to prevent low-priority sources from delivering events during time-critical operations.**  
 #### Input Sources
-* Port-Based Sources
-* Custom Input Sources
+* Port-Based Sources(暂时不看)
+* Custom Input Sources(暂时不看)
 * Cocoa Perform Selector Sources
+In addition to port-based sources, Cocoa defines a custom input source that allows you to perform a selector on any thread. Like a port-based source, perform selector requests are serialized on the target thread, **alleviating(缓解) many of the synchronization problems that might occur with multiple methods being run on one thread.** **Unlike a port-based source, a perform selector source removes itself from the run loop after it performs its selector.**  
+**When performing a selector on another thread, the target thread must have an active run loop.** **For threads you create, this means waiting until your code explicitly starts the run loop.** Because the main thread starts its own run loop, however, you can begin issuing calls on that thread as soon as the application calls the applicationDidFinishLaunching: method of the application delegate. (这句理解不了)The run loop processes all queued perform selector calls each time through the loop, rather than processing one during each loop iteration.
 #### Timer Sources
 #### Run Loop Observers
 #### The Run Loop Sequence of Events
