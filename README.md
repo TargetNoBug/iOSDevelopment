@@ -4,4 +4,4 @@
 
 [GoodArticles](https://github.com/saint-shaka/SayGoodByeToiOSDevelopment/blob/master/GoodArticles.md)
 
-  
+[some of WWDC session subtitles](https://asciiwwdc.com/)
