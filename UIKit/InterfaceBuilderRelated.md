@@ -5,7 +5,7 @@
 ## 2013
 ## 2014
 [What's New in Interface Builder](https://developer.apple.com/videos/play/wwdc2014/411/) .  
-[232 Advanced User Interfaces with Collection Views](https://developer.apple.com/videos/play/wwdc2014/232/) . 
+[232 Advanced User Interfaces with Collection Views](https://developer.apple.com/videos/play/wwdc2014/232/) .   
 [221 Creating Custom iOS User Interfaces](https://developer.apple.com/videos/play/wwdc2014/221/) .  
 ## 2015
 []() .   
