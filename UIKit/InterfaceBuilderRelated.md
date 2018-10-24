@@ -1,8 +1,12 @@
 ## 2011 
 [2011_302 Using Interface Builder in Xcode 4](https://developer.apple.com/videos/play/wwdc2011/302/) .   
 ## 2012
-[]() . 
+[Best Practices for Mastering Auto Layout](https://developer.apple.com/videos/play/wwdc2012/228/) .   
+[Introduction to Auto Layout for iOS and OS X](https://developer.apple.com/videos/play/wwdc2012/202/) .  
 ## 2013
+[What’s New in Xcode 5](https://developer.apple.com/videos/play/wwdc2013/400/)   
+[Interface Builder Core Concepts](https://developer.apple.com/videos/play/wwdc2013/405/) .  
+[406 Taking Control of Auto Layout in Xcode 5](https://developer.apple.com/videos/play/wwdc2013/406/) .  
 ## 2014
 [What's New in Interface Builder](https://developer.apple.com/videos/play/wwdc2014/411/) .  
 [232 Advanced User Interfaces with Collection Views](https://developer.apple.com/videos/play/wwdc2014/232/) .   
@@ -14,8 +18,8 @@
 ## 2016
 [2016_236 What's New in Auto Layout](https://developer.apple.com/videos/play/wwdc2016/236/) .  
 ## 2017
-[2017_412 Auto Layout Techniques in Interface Builder](https://developer.apple.com/videos/play/wwdc2017/412/) . 
+[2017_412 Auto Layout Techniques in Interface Builder](https://developer.apple.com/videos/play/wwdc2017/412/) .  
 ## 2018
 [803 Designing Fluid Interfaces](https://developer.apple.com/videos/play/wwdc2018/803/) .   
 [225 A Tour of UICollectionView](https://developer.apple.com/videos/play/wwdc2018/225/) .  
-[220 High Performance Auto Layout](https://developer.apple.com/videos/play/wwdc2018/220)
+[220 High Performance Auto Layout](https://developer.apple.com/videos/play/wwdc2018/220) . 
