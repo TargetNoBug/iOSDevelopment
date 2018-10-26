@@ -25,5 +25,5 @@
 [220 High Performance Auto Layout](https://developer.apple.com/videos/play/wwdc2018/220) . 
 
 ### Storyboard 入门
-[2011 s309 Introducing Interface Builder Storyboarding](https://developer.apple.com/videos/play/wwdc2011/309/)(Apple已禁止下载，但是优酷上有链接)(29分45秒附近有亮点^_^)(但是现在看segue的identifier属于硬编码，不大好？)   
+[2011 s309 Introducing Interface Builder Storyboarding](https://developer.apple.com/videos/play/wwdc2011/309)(Apple已禁止下载，但是优酷上有链接)(29分45秒附近有亮点)(但是现在看segue的identifier属于硬编码，不大好？)   
 [2012 s407 Adopting Storyboards in Your App](https://developer.apple.com/videos/play/wwdc2012/407)  
