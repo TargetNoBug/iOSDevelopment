@@ -103,5 +103,18 @@ Auto Layout and the safeAreaLayoutGuides will handle a lot of the layout challen
 
 [Building Apps for iPhone XS, iPhone XS Max, and iPhone XR](https://developer.apple.com/videos/play/tech-talks/207/) .  
 ![iOS 12对AutoLayout的性能提升](https://github.com/saint-shaka/SayGoodByeToiOSDevelopment/blob/master/UIKit/AdoptForXSeries/ALPerformance11to12.png)
-[Building Apps for iPhone XS, iPhone XS Max, and iPhone XR](https://developer.apple.com/videos/play/tech-talks/207/) .  提升
-[Building Apps for iPhone XS, iPhone XS Max, and iPhone XR](https://developer.apple.com/videos/play/tech-talks/207/) .  
+------------------------collection view cell 横屏之后会被摄像头遮住
+
+设置collection view.insetReference=safe area, 而不是default的content inset.在sb中也可以设置了
+
+## iOS 12对AutoLayout的性能优化
+
+## 横屏时，UISplitViewController在iPhone上的体验和iPad差不多了
+
+## Common Pitfalls
+
+**Apps with scaled images: XR和Xs Max 都是896x414，但是 XR是2x，Xs Max是3x**
+
+**Avoid hard-coding screen dimensions**:别用frame判断了
+
+XR不支持3D Touch 和双摄像头
