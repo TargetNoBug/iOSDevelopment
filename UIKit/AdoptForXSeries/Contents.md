@@ -102,3 +102,6 @@ Auto Layout and the safeAreaLayoutGuides will handle a lot of the layout challen
  It's also important to not interfere with the Home indicator at the bottom of the screen.
 
 [Building Apps for iPhone XS, iPhone XS Max, and iPhone XR](https://developer.apple.com/videos/play/tech-talks/207/) .  
+![iOS 12对AutoLayout的性能提升](https://github.com/saint-shaka/SayGoodByeToiOSDevelopment/blob/master/UIKit/AdoptForXSeries/ALPerformance11to12.png)
+[Building Apps for iPhone XS, iPhone XS Max, and iPhone XR](https://developer.apple.com/videos/play/tech-talks/207/) .  提升
+[Building Apps for iPhone XS, iPhone XS Max, and iPhone XR](https://developer.apple.com/videos/play/tech-talks/207/) .  
