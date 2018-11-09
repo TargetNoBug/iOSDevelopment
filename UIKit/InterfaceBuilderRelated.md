@@ -30,3 +30,6 @@
 [2011 s309 Introducing Interface Builder Storyboarding](https://developer.apple.com/videos/play/wwdc2011/309)(Apple已禁止下载，但是优酷上有链接)(29分45秒附近有亮点)(但是现在看segue的identifier属于硬编码，不大好？)   
 [2012 s407 Adopting Storyboards in Your App](https://developer.apple.com/videos/play/wwdc2012/407)  
 [2015 s215 What's New in Storyboards](https://developer.apple.com/videos/play/wwdc2015/215/)  
+
+### Interface Builder
+[@IBDesignable (Swift) / IB_DESIGNABLE (OC) & @IBInspectable (Swift) / IBInspectable (OC)](https://www.appcoda.com/ibdesignable-ibinspectable-tutorial/)
