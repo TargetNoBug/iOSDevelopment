@@ -63,7 +63,18 @@ Run loops are intended for situations where you want more interactivity with the
 
 ```
 ### <a name='4'>Using Run Loop Objects :</a>
+
+A run loop object provides the main interface for adding input sources, timers, and run-loop observers to your run loop and then running it. **Every thread has a single run loop object associated with it.** In Cocoa, this object is an instance of the NSRunLoop class. In a low-level application, it is a pointer to a CFRunLoopRef opaque type.  
+
 #### Getting a Run Loop Object
+To get the run loop for the current thread, you use one of the following:  
+
+* In a Cocoa application, use the currentRunLoop class method of NSRunLoop to retrieve an NSRunLoop object.    
+* Use the CFRunLoopGetCurrent function.  
+
+Although they are not toll-free bridged types, **you can get a CFRunLoopRef opaque type from an NSRunLoop object when needed**. The NSRunLoop class defines a *getCFRunLoop* method that returns a CFRunLoopRef type that you can pass to Core Foundation routines. **Because both objects refer to the same run loop, you can intermix calls to the NSRunLoop object and CFRunLoopRef opaque type as needed**.  
+
+
 #### Configuring the Run Loop
 #### Starting the Run Loop
 #### Exiting the Run Loop
