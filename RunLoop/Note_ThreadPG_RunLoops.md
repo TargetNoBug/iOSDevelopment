@@ -122,6 +122,11 @@ CommonModes包含DefaultMode.
 
 **什么时候用DefaultMode?什么时候用CommonModes?**
 
-进阶问题:  
+
 设计RunLoop的目的是什么？
 The purpose of a run loop is to keep your thread busy when there is work to do and put your thread to sleep when there is none.
+
+**Use ports or custom input sources to communicate with other threads.具体代码？  
+Use timers on the thread.具体代码？  
+Use any of the performSelector… methods in a Cocoa application.具体代码？  
+Keep the thread around to perform periodic tasks.具体代码？**  
