@@ -28,7 +28,7 @@ get lost:
                                  floorInformation:(NSString *) floorInformation
                                         consignee:(NSString *) consignee
                                         telephone:(NSString *) telephone
-                                       completion:(IGNetworkingCodeMsgHandler) completion
+                                       completion:(XXNetworkingCodeMsgHandler) completion
 {
     NSDictionary *dic=@{@"deliveryAddressId":@(deliveryAddressId),
                         @"sessionId":kUserinfoManager.sessionId,
@@ -47,16 +47,17 @@ get lost:
 }
 
 +(void)reloadCommunityAddressWithRegionCityId:(NSString *) regionCityId
-                               correctHandler:(void(^)(NSArray <IGAddressCommunityItem *>* items)) correctHandler
-                                 errorHandler:(IGNetworkingCodeMsgHandler) errorHandler
+                               correctHandler:(void(^)(NSArray <XXAddressCommunityItem *>* items)) correctHandler
+                                 errorHandler:(XXNetworkingCodeMsgHandler) errorHandler
 {
     NSDictionary *dic=@{@"sessionId":kUserinfoManager.sessionId,
                         @"accountId":@(kUserinfoManager.accountId),
                         @"regionCityId":regionCityId};
-    [XxxxxxHttpReqRespHandler postURLString:IGURLForAPI(@"address/reloadCommunityAddress")
+    [XxxxxxHttpReqRespHandler postURLString:XXURLForAPI(@"address/reloadCommunityAddress")
                                   paramsDic:dic
                             responseHandler:^(XxxxxxHttpResponse *response) {
-                                if (response.code==kIGCorrectResponseCode) {
+                                if (response.code==k
+                                CorrectResponseCode) {
                                     NSArray <XXAddressCommunityItem *>*items=[NSArray yy_modelArrayWithClass:[XXAddressCommunityItem class] json:response.dataDic[@"someKey"]];
                                     correctHandler(items);
                                 }else{
@@ -69,7 +70,7 @@ get lost:
                                      
 
 写法2:
-在view controller的某个请求方法里:
+在view controller的某个请求方法里直接组装参数:
 ``` C
 -(void)requestForData
 {
