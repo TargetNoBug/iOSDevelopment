@@ -1,8 +1,9 @@
 get lost:
 
 写法1:
-@interface XXXManager : XXX
 ``` C
+@interface XXXManager : XXX
+
 +(void)updateDeliveryAddressWithDeliveryAddressId:(int) deliveryAddressId
                                communityAddressId:(int) communityAddressId
                                  buildingNumberId:(int) buildingNumberId
@@ -11,15 +12,17 @@ get lost:
                                         consignee:(NSString *) consignee
                                         telephone:(NSString *) telephone
                                        completion:(XXNetworkingCodeMsgHandler) completion;
++(void)reloadCommunityAddressWithRegionCityId:(NSString *) regionCityId
+                               correctHandler:(void(^)(NSArray <XXAddressCommunityItem *>* items)) correctHandler
+                                 errorHandler:(XXNetworkingCodeMsgHandler) errorHandler;  
+@end                                 
 ```
 
 ``` C
-+(void)reloadCommunityAddressWithRegionCityId:(NSString *) regionCityId
-                               correctHandler:(void(^)(NSArray <IGAddressCommunityItem *>* items)) correctHandler
-                                 errorHandler:(IGNetworkingCodeMsgHandler) errorHandler;
+
 ```                                       
                                      
-@end
+
 写法2:
 在view controller的某个请求方法里:
 ``` C
@@ -29,7 +32,6 @@ get lost:
     [XxxxxxHttpReqRespHandler postURLString:XXURLForAPI(xxURL)
                                   paramsDic:dic
                              correctHandler:^(XxxHttpResponse *response) {
-
  
                              } errorHandler:^(int code, NSString *message) {
                                  [self xx_showTip:message];
