@@ -1,4 +1,15 @@
+## <a name='contents'>Table of Contents</a>
+  1. [block.h](#code)
+  1. [dispatch_block_flags](#dispatch_block_flags)
+  1. [dispatch_block_create](#dispatch_block_create)
+  1. [dispatch_block_create_with_qos_class](#dispatch_block_create_with_qos_class)
+  1. [dispatch_block_perform](#dispatch_block_perform)
+  1. [dispatch_block_wait](#)
+  1. [dispatch_block_notify](#)
+  1. [dispatch_block_cancel](#)
+  1. [dispatch_block_testcancel](#)
 
+  <a name='code'> block.h:</a>
 ```C
 /*!
  * @typedef dispatch_block_flags_t
@@ -390,3 +401,10 @@ DISPATCH_ASSUME_NONNULL_END
 
 #endif // __DISPATCH_BLOCK__
 ```
+   <a name='dispatch_block_create'> dispatch_block_create:</a>
+   <a name='dispatch_block_create_with_qos_class'> dispatch_block_create_with_qos_class:</a>
+   <a name='dispatch_block_perform'> dispatch_block_perform:</a>
+   <a name='dispatch_block_wait'> dispatch_block_wait:</a>
+   <a name='dispatch_block_notify'> dispatch_block_notify:</a>
+   <a name='dispatch_block_cancel'> dispatch_block_cancel:</a>
+   <a name='dispatch_block_testcancel'> dispatch_block_testcancel:</a>
