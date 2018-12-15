@@ -1,3 +1,5 @@
+即使用不上，也要做到烂熟于心
+
 ## <a name='contents'>Table of Contents</a>
 
 1. [](#)
