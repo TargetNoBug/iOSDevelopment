@@ -14,13 +14,13 @@
 typedef dispatch_block_flags_t
   Flags to pass to the dispatch_block_create functions.
  
- const DISPATCH_BLOCK_BARRIER
+ const **DISPATCH_BLOCK_BARRIER** .  
   Flag indicating that a dispatch block object should act as a barrier block
   when submitted to a DISPATCH_QUEUE_CONCURRENT queue.
   See dispatch_barrier_async() for details.
   This flag has no effect when the dispatch block object is invoked directly.
  
- const DISPATCH_BLOCK_DETACHED
+ const **DISPATCH_BLOCK_DETACHED** .  
   Flag indicating that a dispatch block object should execute disassociated
   from current execution context attributes such as QOS class, os_activity_t
   and properties of the current IPC request (if any). If invoked directly, the
@@ -30,7 +30,7 @@ typedef dispatch_block_flags_t
   with the attributes of the queue (or any attributes specifically assigned to
   the block object).
  
- const DISPATCH_BLOCK_ASSIGN_CURRENT
+ const **DISPATCH_BLOCK_ASSIGN_CURRENT** .  
   Flag indicating that a dispatch block object should be assigned the execution
   context attributes that are current at the time the block object is created.
   This applies to attributes such as QOS class, os_activity_t and properties of
@@ -43,7 +43,7 @@ typedef dispatch_block_flags_t
   dispatch_block_create_with_qos_class(), that QOS class takes precedence over
   the QOS class assignment indicated by this flag.
  
- const DISPATCH_BLOCK_NO_QOS_CLASS
+ const **DISPATCH_BLOCK_NO_QOS_CLASS** .  
   Flag indicating that a dispatch block object should be not be assigned a QOS
   class. If invoked directly, the block object will be executed with the QOS
   class of the calling thread. If the block object is submitted to a queue,
@@ -52,7 +52,7 @@ typedef dispatch_block_flags_t
   This flag is ignored if a specific QOS class is assigned with
   dispatch_block_create_with_qos_class().
  
- const DISPATCH_BLOCK_INHERIT_QOS_CLASS
+ const **DISPATCH_BLOCK_INHERIT_QOS_CLASS** .  
   Flag indicating that execution of a dispatch block object submitted to a
   queue should prefer the QOS class assigned to the queue over the QOS class
   assigned to the block (resp. associated with the block at the time of
@@ -64,7 +64,7 @@ typedef dispatch_block_flags_t
   is invoked directly. It is ignored if DISPATCH_BLOCK_ENFORCE_QOS_CLASS is
   also passed.
  
- const DISPATCH_BLOCK_ENFORCE_QOS_CLASS
+ const **DISPATCH_BLOCK_ENFORCE_QOS_CLASS** .  
   Flag indicating that execution of a dispatch block object submitted to a
   queue should prefer the QOS class assigned to the block (resp. associated
   with the block at the time of submission) over the QOS class assigned to the
