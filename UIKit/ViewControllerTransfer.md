@@ -11,3 +11,11 @@ VC的切换：
 3.childVC 让 parentVC 切换到 其他的ContentVC（NVC的push/pop）  
 4.childVC 让 parentVC 切换到 其他的ContainerVC（self.navigationController present: XXXNavigationController)  
 5.增加临时的window来让新的vc显示在最前面  
+
+目标：  
+1.上线后，VC要能灵活切换  
+2.VC不能乱切换（不能进入相关流程的就是不能进）  
+3.对数据有弱关联（比如根据BOOL进不同的VC）  
+4.用 数组+类 表示具体流程  
+5.当VC多了之后，应该建立index，按照vc的id进行跳转  
+
