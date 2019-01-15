@@ -1,2 +1,5 @@
 CodeWeaver  15:19:42
 可以利用协议拆分类，然后用遵循不同协议的self对象来做符合该协议的事
+[1](https://github.com/saint-shaka/iOSDevelopment/blob/master/Objective-C/Protocol/DDA84327B5D98DAF3219F3958A1FC55E.jpg)
+[2](https://github.com/saint-shaka/iOSDevelopment/blob/master/Objective-C/Protocol/7F0EC803CAE5DC3208B90FD40FD901CE.jpg)
+[3](https://github.com/saint-shaka/iOSDevelopment/blob/master/Objective-C/Protocol/E04662C617BF227A792300F5162B5558.jpg)
